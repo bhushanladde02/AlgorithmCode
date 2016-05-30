@@ -1,0 +1,10 @@
+package DataStructureAndAnalysis.BinaryTree;
+
+public class BTNode {
+	int data;
+	BTNode left;
+	BTNode right;
+	BTNode(int data){
+		this.data=data;
+	}
+}
