@@ -48,14 +48,14 @@ public class FindMaximumPathSumInABinaryTree {
 		int max_top=Math.max(max_single,left+right+traverse.value);
 		
 		max=Math.max(max_top,max);
-		System.out.println("Test");
+		//System.out.println("Test");
 		return max_single;
 		
 	}
 
 	public static void main(String[] args) {
-		BinaryTreeNode node=Util.perfectBinaryTrees();
-		int max=traverseTree(node);//,0,0,0,0,0);
+		BinaryTreeNode node=Util.findMaximumPathSumInABinaryTree();
+		traverseTree(node);//,0,0,0,0,0);
 		System.out.println(max);
 	}
 }

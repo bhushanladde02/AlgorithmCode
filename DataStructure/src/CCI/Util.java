@@ -86,6 +86,26 @@ public class Util {
 		//node7.right=node8;
 		return root;
 	}
+	
+	public static BinaryTreeNode findMaximumPathSumInABinaryTree(){
+	
+		BinaryTreeNode root=new BinaryTreeNode(10);
+		BinaryTreeNode node2=new BinaryTreeNode(2);
+		BinaryTreeNode node10=new BinaryTreeNode(10);
+		BinaryTreeNode node20=new BinaryTreeNode(20);
+		BinaryTreeNode node1=new BinaryTreeNode(1);
+		BinaryTreeNode node_25=new BinaryTreeNode(-25);
+		BinaryTreeNode node3=new BinaryTreeNode(3);
+		BinaryTreeNode node4=new BinaryTreeNode(4);
+		root.left=node2;
+		root.right=node10;
+		node2.left=node20;
+		node2.right=node1;
+		node10.right=node_25;
+		node_25.left=node3;
+		node_25.right=node4;
+		return root;
+	}
 
 	public static BinaryTreeNode getCompleteBinaryTrees(){
 		//every level of tree is fully filled expect the last level
