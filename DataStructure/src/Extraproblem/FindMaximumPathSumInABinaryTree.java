@@ -48,7 +48,7 @@ public class FindMaximumPathSumInABinaryTree {
 		int max_top=Math.max(max_single,left+right+traverse.value);
 		
 		max=Math.max(max_top,max);
-		
+		System.out.println("Test");
 		return max_single;
 		
 	}
